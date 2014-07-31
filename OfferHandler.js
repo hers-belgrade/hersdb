@@ -1,7 +1,6 @@
 var mongoose = require('mongoose'),
   RacingLogger = require('./RacingLogger'),
-  hersdata = require('hersdata'),
-  executable = hersdata.executable,
+  executable = require('hersexecutable'),
   isExecutable = executable.isA,
   execApply = executable.apply,
   execTraverse = executable.traverse;

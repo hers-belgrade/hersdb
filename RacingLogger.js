@@ -1,5 +1,4 @@
-var hersdata = require('hersdata'),
-  executable = hersdata.executable,
+var executable = require('hersexecutable'),
   isExecutable = executable.isA,
   execCall = executable.call;
 
